@@ -40,8 +40,8 @@ continue
 # Stripped:   No
 # Debuginfo:  Yes
 
-io = start()
-# io = remote("mimas.picoctf.net",63304)
+# io = start()
+io = remote("mimas.picoctf.net",65107)
 # shellcode = asm(shellcraft.sh())
 # payload = fit({
 #     32: 0xdeadbeef,

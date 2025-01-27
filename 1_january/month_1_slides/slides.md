@@ -1,7 +1,8 @@
 ---
-title: Nithitsuki's Report 1
-author: pp
+title: Nithitsuki's Jan Report
+author: Nithitsuki
 transition: fade-out
+colorSchema: dark
 ---
 
 # Nithitsuki's Progress Report
@@ -39,13 +40,13 @@ or usually another  malicious functions adress
 ---
 layout: image
 # the image source
-image: ./callfunc.png
+image: ./imgs/callfunc.png
 ---
 
 ---
 layout: image
 # the image source
-image: ./Srdnlen.png
+image: ./imgs/Srdnlen.png
 ---
 
 ---
@@ -76,20 +77,56 @@ as in, shellcode stolen from shellstorm or other sources such as shellcraft
 ---
 layout: image
 # the image source
-image: ./TUCTF.png
+image: ./imgs/TUCTF.png
 ---
 
 ---
 layout: image
 # the image source
-image: ./shellcode.png
+image: ./imgs/shellcode.png
+---
+
+---
+
+# Some other questions solved:
+
+<br>
+
+## PicoCTF:
++ heap 2
++ heap 3 (improperly freed memory exploit)
+
+---
+layout: image
+# the image source
+image: ./imgs/picoCTF.png
 ---
 
 ---
 layout: image-right
 # the image source
-image: ./bus.jpg
+image: ./imgs/bus.jpg
 ---
 
 # Honorable Mention
 Solving our first shellcode problem in the bus:
+
+--- 
+
+<div class="text-center">
+    <h1>Conclusion</h1>
+</div>
+
+<br>
+
+## Things learnt this month:
++ Mainly Heap attacks
++ finding variables in stack using debuggers (gdb/gef)
++ finding offset between input and rip using said debugger
++ understanding the working of rip and abusing it
++ using above knowledge to run shellcode and pop a shell
+
+## Things I wish to learn moving forward:
++ Creating my own custom shellcode (just asm?)
++ Bypass stack canary by leaking it
++ and more to come!

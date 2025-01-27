@@ -29,15 +29,6 @@ tbreak main
 continue
 '''.format(**locals())
 
-
-
-
-
-
-
-
-
-
 io = start()
 payload = b""
 payload += b"A"*0x48
